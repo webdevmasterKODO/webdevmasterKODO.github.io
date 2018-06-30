@@ -163,6 +163,12 @@ footer {
 		font-size: 14px;
 		padding: 8px 35px;
 	}
+	.portfolio-col-1 img {
+			width: 300px;
+	}
+	.portfolio-col-2 img {
+		width: 300px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -177,5 +183,11 @@ footer {
 	}
 	.footer-author, .footer-text {
 		text-align: center;
+	}
+		.portfolio-col-1 img {
+			width: 200px;
+	}
+	.portfolio-col-2 img {
+		width: 200px;
 	}
 }
